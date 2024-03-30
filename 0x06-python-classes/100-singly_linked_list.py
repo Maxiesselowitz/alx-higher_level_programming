@@ -1,4 +1,6 @@
-asses for a singly-linked list."""
+#!/usr/bin/python3
+
+"""Define classes for a singly-linked list."""
 
 
 class Node:
@@ -76,3 +78,4 @@ class SinglyLinkedList:
             values.append(str(tmp.data))
             tmp = tmp.next_node
         return ('\n'.join(values))
+
